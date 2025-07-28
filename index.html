@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temp </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    
+        <div class="maincontainer">
+            <div class="content">
+            <label >Enter temperature</label>
+            <input type="number"id="input_temp"placeholder=Celsius (°C)><br>
+            <label>
+                Convert into:
+            </label>
+            <select class="convert_to">
+               <option value="none" selected disabled hidden>Select to Convert</option>
+               
+                <option value="Fahrenheit">Fahrenheit (°F)</option>
+                <option>Kelvin (K)</option>
+            </select><br>
+            <button class="btn">Convert</button>
+            <p id="p"></p>
+        </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

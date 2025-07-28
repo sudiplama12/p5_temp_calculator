@@ -1,0 +1,98 @@
+.container {
+  background-image: linear-gradient(
+    55deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(281deg 100% 21%) 9%,
+    hsl(304deg 100% 23%) 18%,
+    hsl(319deg 100% 30%) 27%,
+    hsl(329deg 100% 36%) 37%,
+    hsl(336deg 100% 41%) 46%,
+    hsl(346deg 83% 51%) 55%,
+    hsl(3deg 95% 61%) 64%,
+    hsl(17deg 100% 59%) 72%,
+    hsl(30deg 100% 55%) 80%,
+    hsl(40deg 100% 50%) 87%,
+    hsl(48deg 100% 50%) 94%,
+    hsl(55deg 100% 50%) 100%
+
+  );
+  width: 100vw;
+  height: 99vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.maincontainer{
+    background-color: rgb(172, 189, 221);
+    width: 35%;
+    height: 30%;
+    border-radius: 20px;
+  display: flex;
+  align-items: center;
+  
+   
+   
+    
+}
+input{
+    width: 100px;
+    margin: 10px;height: 25px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    text-align: right;
+}
+.content{
+    padding: 25px;font-size: 20px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+select{
+    width: 167px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        
+    }
+  .maincontainer {
+    width: 95%;
+    height: 50%;
+  padding: 5px;
+    
+  }
+
+  
+  .content {
+    width: 100%;
+    font-size: 16px;
+    
+   
+    
+  }
+
+
+
+  #p {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+}
+.input-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap; 
+  margin-bottom: 10px;
+}
+
